@@ -1,3 +1,26 @@
 .helloInput {
   width: 200px;
 }
+
+.jumbotron {
+  background-image: url("./assets/Landscape-Color.jpg");
+  background-size: cover;
+  opacity: 0.8;
+  width: 100%;
+  height: 33%;
+}
+
+.center { 
+  margin: 0 auto !important; /* I have added the !important attribute just for debugging, you can remove it. */ 
+}
+
+.flex { 
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Optional */
+}
+
+.fancyText{
+  font-size: 2em;
+}
+
